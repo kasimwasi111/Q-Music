@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&family=Varela+Round&display=swap');
 
 body{
-    background-color: antiquewhite;
+    background-color: darkcyan;
 }
 *{
     margin: 0;
@@ -9,6 +9,7 @@ body{
 }
 nav{
     font-family: 'Peralta', cursive;
+    font-size: 40px;
 }
 
 nav ul{
@@ -16,21 +17,20 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
+    background-color: darkslategrey;
     color: azure;
     cursor: pointer;
 }
 
 nav ul li{
-    padding: 0 15px;
-    
+    padding: 0 20px; 
 }
 nav ul p{
     padding: 0 5px;
 }
 
 .brand img{
-    width: 170px;
+    width: 190px;
     padding: 0 10px;
 }
 
@@ -38,12 +38,12 @@ nav ul p{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .container{
     min-height: 70vh;
-    background-color: black;
+    background-color: darkgray;
     color: white;
     font-family: 'Varela Round', sans-serif;
     display: flex;
@@ -52,12 +52,14 @@ nav ul p{
     border-radius: 15px;
     padding: 30px;
     background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bottom{
     position: sticky;
     height: 130px;
-    background-color: black;
+    background-color: darkslategrey;
     color: wheat;
     bottom: 0;
     display: flex;
@@ -76,7 +78,7 @@ nav ul p{
 }
 
 #myProgressBar{
-    width: 80vh;
+    width: 80vw;
     cursor: pointer;
 }
 
@@ -120,7 +122,7 @@ nav ul p{
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.8s ease-in;
 }
 
 
